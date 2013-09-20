@@ -8,12 +8,12 @@
   },
   "dependencies": {
     "isnumber": "~1.0.0",
-    "through2-map": "~1.1.0",
-    "through2": "~0.2.1",
-    "xtend": "~2.1.1",
+    "through2-map": "~1.2.0",
+    "through2": "~0.2.2",
     "array-pivot": "~1.0.0",
     "stats-lite": "~1.0.0",
-    "flatnest": "~0.2.0"
+    "flatnest": "~0.2.0",
+    "xtend": "~2.1.1"
   },
   "devDependencies": {
     "stream-spigot": "~2.1.1",
