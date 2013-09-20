@@ -1,0 +1,41 @@
+{
+  "name": "timestream-ops",
+  "version": "0.0.0",
+  "description": "Mapped operation Transforms for sequential objectMode streams (e.g. timeseries data).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "isnumber": "~1.0.0",
+    "through2-map": "~1.1.0",
+    "through2": "~0.2.1",
+    "xtend": "~2.1.1",
+    "array-pivot": "~1.0.0",
+    "stats-lite": "~1.0.0",
+    "flatnest": "~0.2.0"
+  },
+  "devDependencies": {
+    "stream-spigot": "~2.1.1",
+    "concat-stream": "~1.0.1",
+    "tape": "~1.1.0"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "keywords": [
+    "stream",
+    "map",
+    "timeseries",
+    "timestream"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brycebaril/timestream-ops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brycebaril/timestream-ops/issues"
+  }
+}
