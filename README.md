@@ -3,6 +3,9 @@ timestream-ops
 
 [![NPM](https://nodei.co/npm/timestream-ops.png)](https://nodei.co/npm/timestream-ops/)
 
+[![david-dm](https://david-dm.org/brycebaril/timestream-ops.png)](https://david-dm.org/brycebaril/timestream-ops/)
+[![david-dm](https://david-dm.org/brycebaril/timestream-ops/dev-status.png)](https://david-dm.org/brycebaril/timestream-ops#info=devDependencies/)
+
 Mapped operation Transforms for sequential objectMode streams (e.g. timeseries data). Contains a set of stream Transforms that accept ordered objectMode streams with a sequenceKey perform an operation on each value in each record.
 
 Most of these operations are shallow, that is they will not descend into nested keys at each record.
@@ -158,7 +161,7 @@ For each numeric value in each record, replace the value with its difference fro
 
 Replace each numeric value with the cumulative sum of all numeric values at that key prior to this record.
 
-`sma(key, n)`
+`sma(seqKey, n)`
 ---
 
 Replace each numeric value with the Simple Moving Average (mean) of that value for the previous `n` records.
