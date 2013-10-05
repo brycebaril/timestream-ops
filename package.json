@@ -1,6 +1,6 @@
 {
   "name": "timestream-ops",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Mapped operation Transforms for sequential objectMode streams (e.g. timeseries data).",
   "main": "index.js",
   "directories": {
