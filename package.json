@@ -11,7 +11,7 @@
     "through2-map": "~1.2.1",
     "through2": "~0.4.1",
     "array-pivot": "~1.0.1",
-    "stats-lite": "~1.0.0",
+    "stats-lite": "~1.0.1",
     "flatnest": "~0.2.1",
     "xtend": "~2.1.2"
   },
