@@ -43,7 +43,7 @@ API
 
 This library includes a whole pile of transforms that operate on each record. All operations skip the specified sequence key, if appliccable or unless otherwise noted.
 
-* apply
+* each
 * ceil
 * floor
 * round
@@ -71,7 +71,7 @@ This library includes a whole pile of transforms that operate on each record. Al
 * slide
 * map
 
-`apply(seqKey, fn)`
+`each(seqKey, fn)`
 ---
 
 Apply `fn` to each value in each record, leaving the sequence key `seqKey` alone. Walks through each record calling `fn` for each value, so `fn` should accept a value and return what you would like the new value to be.

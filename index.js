@@ -1,4 +1,4 @@
-module.exports.apply = apply
+module.exports.each = each
 module.exports.ceil = ceil
 module.exports.floor = floor
 module.exports.round = round
@@ -39,7 +39,7 @@ var pivot = require("array-pivot")
 var stats = require("stats-lite")
 var flatnest = require("flatnest")
 
-function apply(key, fn) {
+function each(key, fn) {
   var args = [].slice.apply(arguments)
   return t2map({objectMode: true}, function (record) {
     var newRecord = {}
@@ -54,7 +54,7 @@ function apply(key, fn) {
 }
 
 function _numeric(key, fn) {
-  return apply(key, function (val) {
+  return each(key, function (val) {
     if (!isNumber(val)) return val
     return fn.call(null, +val)
   })

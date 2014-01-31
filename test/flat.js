@@ -16,7 +16,7 @@ function input() {
   ])
 }
 
-test("apply", function (t) {
+test("each", function (t) {
   t.plan(1)
 
   function inverse(val) {
@@ -37,7 +37,7 @@ test("apply", function (t) {
     t.deepEquals(records, expected)
   }
 
-  input().pipe(ops.apply("v", inverse)).pipe(concat(check))
+  input().pipe(ops.each("v", inverse)).pipe(concat(check))
 })
 
 test("ceil", function (t) {

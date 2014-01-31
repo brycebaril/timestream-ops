@@ -12,7 +12,7 @@
     "through2": "~0.4.1",
     "array-pivot": "~1.0.1",
     "stats-lite": "~1.0.1",
-    "flatnest": "~0.2.1",
+    "flatnest": "~0.2.2",
     "xtend": "~2.1.2"
   },
   "devDependencies": {
